@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="justlogo.png" width="2px" height="5px"/>
+    
+    <title>Project</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link href="styling_project.css" rel="stylesheet"> 
+  </head>
+  <body>
+      <div class="container">
+        <!-- Logo & header-->
+          <div class="header">
+              <img src="images/LogoKronoFinal.png" class="logo">
+              <img src="images/svvlogo.jfif" class="svv">
+              
+              <div id="menu">
+                    <ul>
+                        <li><a href="homepage.html" class="active" id="home">Home</a></li>
+                        <li><a href="#">Project</a></li>
+<!--
+                        <li><a href="#">Post</a></li>
+                        <li><a href="#">Sign-up</a></li>
+-->
+                      <li><a href="Efarm.html " target="blank">EFarm</a></li>
+                    </ul>
+                </div>
+          </div>
+        
+        <div class="boxes">  
+              
+        <!--temperature boxes -->
+          <div class="boxsection" onmouseover="startreadings()">
+              <h1>Temperature</h1>
+              
+              <div class="boxt1" id="box">
+                <div class="result">
+                    <p>
+                        <span id="t1"></span>
+                    </p>
+                </div>  
+              </div>
+              
+              <div class="boxt2" id="box">
+                 <div class="result">
+                    <p>
+                     <span id="t2"></span>
+                    </p>
+                </div> 
+              </div>
+              
+              <div class="boxt3" id="box">
+                  <div class="result">
+                    <p>
+                     <span id="t3"></span>
+                    </p>
+                </div>
+              </div>
+             
+              <div class="boxt4" id="box">
+                 <div class="result">
+                    <p>
+                     <span id="t4"></span>
+                    </p>
+                </div>
+              </div>
+          </div>
+        
+              
+        <!-- Waterflow box -->
+          
+            <div class="boxsection">
+              <h1>Water-Flow</h1>
+              
+                <div class="boxwf1" id="box">
+                  <div class="result">
+                    <p>
+                     <span id="t1"></span>
+                    </p>
+                </div>
+               </div>
+              
+                <div class="boxwf2" id="box">
+                  <div class="result">
+                    <p>
+                     <span id="t1"></span>
+                    </p>
+                </div>
+               </div>
+              
+                <div class="boxwf3">
+               
+                <div class="switches">
+            
+                <label class="switch">
+                    <p id="switchtext">Fan1</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                <br>
+                <label class="switch">
+                    <p id="switchtext">Fan3</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                    <br>
+                <label class="switch">
+                   <p id="switchtext">BottomFan</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                <br>    
+                    
+                    <label class="switch">
+                    <p id="switchtext">Pump</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                </div>        
+                
+                <div class="switches">
+                
+                        <!-- Rounded switch -->
+                <label class="switch">
+                    <p>Fan2</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                <br>
+                <label class="switch">
+                    <p>Fan4</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                    <br>
+                <label class="switch">
+                    <p>Valve</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                <br>    
+                    <label class="switch">
+                    <p>LED</p>
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+                
+                
+                </div>
+                                
+                </div>
+              
+                <div class="boxwf4">
+                  <img src="images/justlogo.png">
+                </div>
+          </div>
+          
+        <!-- Humidity box --> 
+        
+            <div class="boxsection">
+              <h1>Humidity</h1>
+              
+              <div class="boxh1" id="box">
+                <div class="result">
+                    <p>
+                     <span id="t1"></span>
+                    </p>
+                </div>
+              </div>
+              
+              <div class="boxh2" id="box">
+                  <div class="result">
+                    <p>
+                     <span id="t1"></span>
+                    </p>
+                </div>
+              </div>
+              
+              <div class="boxh3" id="box">
+                  <div class="result">
+                    <p>
+                     <span id="t1"></span>
+                    </p>
+                </div>
+              </div>
+             
+              <div class="boxh4" id="box">
+                 <div class="result">
+                    <p>
+                     <span id="t1"></span>
+                    </p>
+                </div>
+              </div>
+            
+          </div>
+    </div>    
+      <!-- Last bar with copyrights  -->
+          <div class="copyright">
+              <a href="Team.html" target="blank">About Team</a>
+              <a href="https://kjsce.somaiya.edu/kjsce/" target="blank"> KJSCE </a>
+              <a> Developers </a>
+              <p> &copy; Kronos, 2019</p>
+          </div>
+</div> 
+  
+    
+        
+<!--container over -->      
+
+      <!--Bootstrap -->      
+    
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+      
+    <script>
+    function startreadings()
+     {
+        var i=0;
+        var temp1=20;    
+        document.getElementById('t1').innerHTML = temp1+" Degrees "; 
+        document.getElementById('t2').innerHTML = temp1+" Degrees "; 
+        document.getElementById('t3').innerHTML = temp1+" Degrees "; 
+        document.getElementById('t4').innerHTML = temp1+" Degrees ";  
+     }
+              
+          
+    </script>    
+  </body>
+</html>

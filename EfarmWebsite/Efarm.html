@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="justlogo.png" />
+    <title>Efarm</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link href="styling_Efarm.css" rel="stylesheet"> 
+  </head>
+  <body>
+<div class="container">
+        <!-- Logo & header-->
+          <div class="header">
+              <img src="images/LogoKronoFinal.png" class="logo">
+              <img src="images/svvlogo.jfif" class="svv">
+              
+              <div id="menu">
+                    <ul>
+                        <li><a href="homepage.html"  class="home">Home</a></li>
+                        <li><a href="LoginPage.html" target="_blank">Login</a></li>
+<!--
+                        <li><a href="#">Post</a></li>
+                        <li><a href="#">Sign-up</a></li>
+-->
+                        <li><a href="#">EFarm</a></li>
+                    </ul>
+                </div>
+          </div>
+        <div class="textregion">
+            
+           <h2> VISION...</h2>
+            <p class="text">
+                In this project we implement an efficient irrigation system which will irrigate the farm as per the water requirement of the soil so that wastage of water and labour force is avoided and farming is made convenient and efficient.
+            </p>
+            <h2>E-FARM...</h2>
+            <p class="text">
+                We have developed a solar powered system that enables the operation of a valve for irrigation through a web based dashboard. Therefore, the system can be operated from remotely as long as it is connected to a network. The system is also provided with battery system to supply stable power. The system monitors various parameters such as the battery voltage continuously and has a power back-up facility through wall power adapter in case of failure or poor performance of the solar power.
+            </p>
+            <h2>WORKING...</h2>
+            <p class="text">
+            The system works on the basis of MQTT publisher subscriber network, where a Raspberry Pi acts as a server (publisher) and a NodeMCU works as a control unit (subscriber). The valve unit and various sensors are controlled by and connected to the NodeMCU, which in turn is given commands through the Raspberry Pi via an MQTT communication network. A user dashboard is developed for easy access and control of the system
+The temperature,humidity,soil moisture and battery level readings are sent over to the Raspberry Pi and displayed on the dashboard. The dashboard has switches to control the water supply remotely. The volume of the water supplied is monitored by the use of flow sensors. The power supply consists of a solar power supply with a LiPo battery powered backup. The system also has the option to directly power it through a wall powered 5V supply.
+</p>
+    <a href="Minimodel.html"><button class="btnmm">MiniModel</button></a>        
+    <a href="Project.html" target="_blank"><button class="btnmm">Control</button></a>        
+    
+</div>
+
+    
+         <!-- Last bar with copyrights  -->
+          <div class="copyright">
+              <a href="Team.html" target="blank">About Team</a>
+              <a href="https://kjsce.somaiya.edu/kjsce/" target="blank"> KJSCE </a>
+              <a> Developers </a>
+              <p> &copy; Kronos, 2019</p>
+     </div>
+        
+</div> 
+  
+    
+        
+<!--container over -->      
+
+      <!--Bootstrap -->      
+    
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+      
+<!-- jQuery code here -->      
+      
+      
+      </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>    

@@ -1,0 +1,345 @@
+/* Styling body background*/
+body{
+    height: 100%;
+    width: 100%; 
+    background-color:beige ;
+}
+
+.container{
+    height: auto;
+    width: auto;
+/*    background-color: gainsboro;*/
+    margin: 0px 0px 0px 0px;
+   
+}
+
+/* Style brand logo & header */
+
+
+.logo{
+    height: 100px;
+    padding-left: 10px;
+}
+
+
+.svv{
+    height: 90px;
+    float: right;
+    margin-top: 10px;
+}
+
+.header{
+    height: auto;
+    width: 100%;
+}
+
+
+#menu
+{
+    height: 50px;
+    background: linear-gradient(#056703, #113000);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 10px -15px 10px -15px;
+    color: white;
+    border: 0.5px solid grey;
+    padding-left: -10px;
+    
+}
+
+ul
+{
+    list-style: none;
+    
+}
+
+#menu ul li
+{
+    float: left;
+    padding: 5px 30px;
+    height: 33px;
+    border-right: 1.2px solid;
+    color: chartreuse;
+}
+
+#menu ul li:last-child
+{ 
+    border-right: none; 
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+    line-height: 20px;
+    -webkit-transition: font-size 0.5s linear;
+    -moz-transition: font-size 0.5s linear;
+    -o-transition: font-size 0.5s linear;
+    -ms-transition: font-size 0.5s linear;
+    transition: font-size 0.5s linear;
+}
+
+#menu ul li a:hover{
+    font-size: 30px;
+    font-weight: bold;
+    color: springgreen;
+}
+
+
+/*-- BoxLayout  */
+.boxes{
+    width: 100%;
+    margin: 10px;
+/*    background-color: gainsboro;*/
+    padding: 0px 50px 10px 60px;
+    
+}
+
+.boxsection{
+    width: 31.5%;
+    height: 1320px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    float: left;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 10px 20px 10px 0px;
+
+}
+
+.boxsection h1{
+    font-size: 35px;
+    font-family: serif;
+    
+}
+
+/* Temperature */
+.boxt1{
+    background: url(images/temp6.jpeg) no-repeat center center;
+    
+}
+
+.boxt2{
+     background: url(images/temp6.jpeg) no-repeat center center;
+    
+}
+.boxt3{
+    background: url(images/temp6.jpeg) no-repeat center center;
+    }
+.boxt4{
+    background: url(images/temp6.jpeg) no-repeat center center;
+    
+}
+
+/* Humidity */
+.boxh1{
+    background: url(images/humidity1.jpeg) no-repeat center center;
+    }
+
+.boxh2{
+    background: url(images/humidity1.jpeg) no-repeat center center;
+    
+}
+
+.boxh3{
+    background: url(images/humidity1.jpeg) no-repeat center center;
+}
+
+.boxh4{
+   background: url(images/humidity1.jpeg) no-repeat center center;
+   
+}
+
+/* Waterflow */
+.boxwf1{
+    background: url(images/wf1.jpeg) no-repeat center center; 
+}
+.boxwf2{
+    background: url(images/wf1.jpeg) no-repeat center center;
+}
+
+.boxwf3{
+  align-self: center;
+    margin: 10px 10px 10px 10px;
+    width: 400px;
+    height: 300px;
+    align-self: center;
+    margin: 10px;
+    background-size: 100% 100%;
+ 
+}
+.boxwf4{
+    align-self: center;
+    width: 400px;
+    height: 300px;
+    align-self: center;
+    margin: 10px ;
+    background-size: 100% 100%;
+}
+
+.boxwf4 img{
+    height: 150px;
+    margin-top: 150px
+}
+
+#box{
+/*    width: 95.5%;*/
+    height: 300px;
+    align-self: center;
+    margin: 10px;
+      border: 1px solid black;
+    background-size: 100% 100%;
+    opacity: 0.9; 
+    border-radius: 5px;
+}
+#box:hover{
+    opacity: 0.7;
+}
+
+
+.result{
+    width: auto;
+    height: 35px;
+    background-color: beige;
+    color: black;
+    font-size: 20px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    margin: 100px;
+    margin-top: 130px;
+    opacity: 0.7;
+    padding: 2px 0px 2px 0px;
+    border: 1px solid black;
+}
+.result:hover{
+  opacity: 1;
+}
+
+.copyright{
+    height: 40px;
+    width: 102%;
+    margin: 10px -15px 0px -15px;
+    
+    background-color: black;
+    color: white;
+    float: left;
+   
+}
+.copyright a{
+    font-size: 20px;
+    border-right: 1px solid;
+    padding-left: 5px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-top: 5px ;
+    margin-right: 5px;
+    float: left;
+    color: springgreen;
+}
+
+.copyright p{
+    float: right;
+    font-size: 20px;  
+    padding-right: 40px;
+}
+
+.copyright a:last-child
+{ 
+    border-right: none; 
+}
+
+/* Buttons */
+.switches{
+    height: 300px;
+    width: 190px;
+    float: left;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 70px;
+    font-size: 20px;
+    font-family: inherit;
+    color: gainsboro;
+    padding: 0px 10px 10px -5px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+    width: 50px;
+/*    margin-left: 35px;*/
+  cursor: pointer;
+    height: 24px;
+    text-align: center;
+  top: 30px;
+  left: 35px;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+    margin-top: 2px;
+    margin-left: 2px
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 4px;
+/*    right: px;*/
+  bottom: 3px;
+    right: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+    
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* media /change icon size in small devives */
+
+#home{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkmagenta;
+}

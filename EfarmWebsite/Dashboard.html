@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="justlogo.png" width="2px" height="5px"/>
+    
+    <title>Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link href="styling_Efarm.css" rel="stylesheet"> 
+  </head>
+  <body>
+      <div class="container">
+        <!-- Logo & header-->
+          <div class="header">
+              <img src="images/LogoKronoFinal.png" class="logo">
+              <img src="images/svvlogo.jfif" class="svv">
+              
+              <div id="menu">
+                    <ul>
+                        <li><a href="homepage.html" class="active" id="home">Home</a></li>
+                        <li><a href="#">Project</a></li>
+<!--
+                        <li><a href="#">Post</a></li>
+                        <li><a href="#">Sign-up</a></li>
+-->
+                      <li><a href="Efarm.html " target="blank">EFarm</a></li>
+                    </ul>
+                </div>
+          </div>
+          <div class="dashtitle">
+            <h1 style="margin-top: -10px; font-family: serif; ">Dashboard (MiniModel)</h1>
+          
+          </div>
+          <div class="dash">
+              <table class="dashtable" cellspacing="30px">
+                  
+                  <tr>
+                 <th colspan="2" style="background-color: gainsboro;">
+                     <h2 style="margin-right:20px; font-family: monospace;">AIR PUMP</h2>
+                     <br>
+                    <div id="pwr" onclick="mypower()">
+                       </div>          
+                    </th>  
+                       
+                   <th class="ls" colspan="2">
+                    <h2 style="margin:0px 10px 0px 0px;">Temperature</h2> 
+                    <br>
+                     <input type="range" min="10" max="30" value="20" class="slider" id="temp">
+                    <p style="font-size: 20px; margin: 10px;">Value: <span id="tempres"></span></p>
+                    </th>
+                      
+                  
+                  </tr>
+              
+                  
+                  <tr>
+                    <th class="ls">
+                    <h2>Light Series 1</h2>    
+                    </th>
+                    <th class="colorcont">
+                    <h2 style="color: red; margin:10px 10px 10px 0px;">Red</h2> 
+                    <br>
+                     <input type="range" min="0" max="10" value="0" class="slider" id="red1">
+                    <p style="font-size: 20px; margin: 10px;">Value: <span id="redls1"></span></p>
+                    </th>
+                    
+                    <th class="colorcont">
+                    <h2 style="color: green; margin:10px 10px 10px 0px;">Green</h2> 
+                    <br>
+                     <input type="range" min="0" max="10" value="0" class="slider" id="green1">
+                    <p style="font-size: 20px; margin: 10px;">Value: <span id="greenls1"></span></p>
+                    </th>
+                    
+                    <th class="colorcont">
+                    <h2 style="color: blue; margin:10px 10px 10px 0px;">Blue</h2> 
+                    <br>
+                     <input type="range" min="0" max="10" value="0" class="slider" id="blue1">
+                    <p style="font-size: 20px; margin: 10px;">Value: <span id="bluels1"></span></p>
+                    </th>
+                    
+                   </tr>
+                  <tr>
+                    <th class="ls">
+                    <h2>Light Series 2</h2>    
+                    </th>
+                    
+                    <th class="colorcont">
+                    <h2 style="color: red; margin:10px 10px 10px 0px;">Red</h2> 
+                    <br>
+                     <input type="range" min="0" max="10" value="0" class="slider" id="red2">
+                    <p style="font-size: 20px; margin: 10px;">Value: <span id="redls2"></span></p>
+                    </th>
+                    
+                    <th class="colorcont">
+                    <h2 style="color: green; margin:10px 10px 10px 0px;">Green</h2> 
+                    <br>
+                     <input type="range" min="0" max="10" value="0" class="slider" id="green2">
+                    <p style="font-size: 20px; margin: 10px;">Value: <span id="greenls2"></span></p>
+                    </th>
+                    
+                    <th class="colorcont">
+                    <h2 style="color: blue; margin:10px 10px 10px 0px;">Blue</h2> 
+                    <br>
+                     <input type="range" min="0" max="10" value="0" class="slider" id="blue2">
+                    <p style="font-size: 20px; margin: 10px;">Value: <span id="bluels2"></span></p>
+                    </th>
+                     
+                   
+                  </tr>
+                 
+              </table>
+          
+          </div>
+            
+            
+      <!-- Last bar with copyrights  -->
+          <div class="copyright">
+              <a href="Team.html" target="blank">About Team</a>
+              <a href="https://kjsce.somaiya.edu/kjsce/" target="blank"> KJSCE </a>
+              <a> Developers </a>
+              <p> &copy; Kronos, 2019</p>
+          </div>
+</div> 
+  
+    
+        
+<!--container over -->      
+
+      <!--Bootstrap -->      
+    
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+      
+      
+    <!-- JAVASCRIPT -->
+    <script>
+        var slred11 = document.getElementById("red1");
+        var opred11 = document.getElementById("redls1");
+        
+        opred11.innerHTML = slred11.value;
+
+        slred11.oninput = function()
+        {
+            opred11.innerHTML = this.value;
+        }
+        
+        var sl12 = document.getElementById("green1");
+        var op12 = document.getElementById("greenls1");
+        
+        op12.innerHTML = sl12.value;
+
+        sl12.oninput = function()
+        {
+            op12.innerHTML = this.value;
+        }
+        
+        var sl13 = document.getElementById("blue1");
+        var op13 = document.getElementById("bluels1");
+        
+        op13.innerHTML = sl13.value;
+
+        sl13.oninput = function()
+        {
+            op13.innerHTML = this.value;
+        }
+        
+        var slred21 = document.getElementById("red2");
+        var opred21 = document.getElementById("redls2");
+        
+        opred21.innerHTML = slred21.value;
+
+        slred21.oninput = function()
+        {
+            opred21.innerHTML = this.value;
+        }
+        
+        var sl22 = document.getElementById("green2");
+        var op22 = document.getElementById("greenls2");
+        
+        op22.innerHTML = sl22.value;
+
+        sl22.oninput = function()
+        {
+            op22.innerHTML = this.value;
+        }
+        
+        var sl23 = document.getElementById("blue2");
+        var op23 = document.getElementById("bluels2");
+        
+        op23.innerHTML = sl23.value;
+
+        sl23.oninput = function()
+        {
+            op23.innerHTML = this.value;
+        }
+        
+         var t = document.getElementById("temp");
+        var tempop = document.getElementById("tempres");
+        
+        tempop.innerHTML = t.value;
+
+        t.oninput = function()
+        {
+            tempop.innerHTML = this.value;
+        }
+       
+       
+        document.getElementById("pwr").style.backgroundImage = "url('images/pwroff.jpg');"
+             
+        function mypower()
+        {
+            document.getElementById("pwr").style.backgroundImage = "url('images/pwron.jpg')";
+  
+        }
+      </script>
+  
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

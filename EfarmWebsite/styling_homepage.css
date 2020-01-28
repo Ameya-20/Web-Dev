@@ -1,0 +1,148 @@
+/* Styling body background*/
+body{
+    height: 100%;
+    width: 100%; 
+    background-color:beige;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+/*    background-color: gainsboro;*/
+    margin: 0px 0px 0px 0px;
+   
+}
+
+/* Style brand logo & header */
+
+
+.logo{
+    height: 100px;
+    padding-left: 10px;
+}
+
+.svv{
+    height: 90px;
+    float: right;
+    margin-top: 10px;
+}
+.header{
+    height: auto;
+    width: 100%;
+}
+
+
+#menu
+{
+    height: 50px;
+    background: linear-gradient(#056703, #113000);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 10px -15px 10px -15px;
+    color: white;
+    border: 0.5px solid grey;
+    padding-left: -10px;
+    
+}
+
+ul
+{
+    list-style: none;
+    
+}
+
+#menu ul li
+{
+    float: left;
+    padding: 5px 30px;
+    height: 33px;
+    border-right: 1.2px solid;
+    color: chartreuse;
+}
+
+#menu ul li:last-child
+{ 
+    border-right: none; 
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+    line-height: 20px;
+    -webkit-transition: font-size 0.5s linear;
+    -moz-transition: font-size 0.5s linear;
+    -o-transition: font-size 0.5s linear;
+    -ms-transition: font-size 0.5s linear;
+    transition: font-size 0.5s linear;
+}
+
+#menu ul li a:hover{
+    font-size: 30px;
+    font-weight: bold;
+    color: springgreen;
+}
+
+
+#menu ul li:first-child
+{ 
+    text-transform:none;
+    font-size: 30px;
+    font-family: serif;
+    color: springgreen;
+    line-height: 20px;
+    transition: none;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-top: 5px;
+    
+}
+
+#copyright{
+    height: 40px;
+    width: 102%;
+    margin: 10px -15px 0px -15px;
+    
+    background-color: black;
+    color: white;
+    float: left;
+   
+}
+#copyright a{
+    font-size: 20px;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    float: left;
+    color: white;
+}
+#copyright a:last-child{
+    border-right: none; 
+}
+#copyright p{
+    float: right;
+    font-size: 20px;
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    padding-right: 40px;
+}
+
+.aboutkronos{
+    height: 540px;
+    background: black;
+    color: white;
+    margin: 5px -15px 0px -15px;
+    padding: 10px 0px 10px 20px;
+}
+
+h2{
+    font-family: serif;
+}
+.text{
+    font-size: 23px;
+    padding-left: 20px;
+}

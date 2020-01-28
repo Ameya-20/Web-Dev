@@ -1,0 +1,246 @@
+/* Styling body background*/
+body{
+    height: 100%;
+    width: 100%; 
+   background-color: beige;
+}
+
+.container{
+    height: auto;
+    width: auto;
+/*    background-color: gainsboro;*/
+    margin: 0px 0px 0px 0px;
+   
+}
+
+/* Style brand logo & header */
+
+
+.logo{
+    height: 100px;
+    padding-left: 10px;
+}
+
+.svv{
+    height: 90px;
+    float: right;
+    margin-top: 10px;
+}
+.header{
+    height: auto;
+    width: 100%;
+}
+
+
+#menu
+{
+    height: 50px;
+    background: linear-gradient(#056703, #113000);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 10px -15px 10px -15px;
+    color: white;
+    border: 0.5px solid grey;
+    padding-left: -10px;
+    
+}
+
+ul
+{
+    list-style: none;
+    
+}
+
+#menu ul li
+{
+    float: left;
+    padding: 5px 30px;
+    height: 33px;
+    border-right: 1.2px solid;
+    color: chartreuse;
+}
+
+#menu ul li:last-child
+{ 
+    border-right: none; 
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+    line-height: 20px;
+    -webkit-transition: font-size 0.5s linear;
+    -moz-transition: font-size 0.5s linear;
+    -o-transition: font-size 0.5s linear;
+    -ms-transition: font-size 0.5s linear;
+    transition: font-size 0.5s linear;
+}
+
+#menu ul li a:hover{
+    font-size: 30px;
+    font-weight: bold;
+    color: springgreen;
+}
+
+
+.copyright{
+    height: 40px;
+    width: 102%;
+    margin: 10px -15px 0px -15px;
+    background-color: black;
+    color: white;
+    float: left;
+   
+}
+.copyright a{
+    font-size: 20px;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    float: left;
+    color: white;
+}
+.copyright p{
+    float: right;
+    font-size: 20px;
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    padding-right: 40px;
+}
+
+h1{
+    margin-top: 10px;
+    padding-top: 10px;
+    color: azure;
+}
+.text{
+    font-size: 23px;
+    font-family:serif;
+    margin-left: 30px;
+}
+
+.textregion{
+    background: black;
+    color: white;
+    margin: 0px -15px 0px -15px;
+    padding: 10px 10px 10px 10px;
+}
+
+h2{
+    padding-left: 20px;
+    font-family: serif;
+}
+
+.btnmm{
+    color: black;
+    width: 170px;
+    font-size: 25px;
+    font-family: serif ;
+    background-color: greenyellow;
+    border: 0.5px bold;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 20px;
+}
+
+.mmpic{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+
+.dash{
+    height: auto;
+    width: 100%;
+       
+}
+
+.ls{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px 10px 10px;
+    width: 280px;
+    
+}
+
+table{
+    border-spacing: 10px 15px;
+    border: 2px bold black;
+    text-align:center; 
+    margin-right: 170px;
+    margin-left: auto;
+}
+th,td{ 
+       
+      text-align: center; 
+      border: 30px solid beige; 
+   padding: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+
+.colorcont
+{
+    width: 280px;
+    background-color: bisque;
+    
+}
+
+#pwr{
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    align-self: center;
+    border-radius: 75px;
+    background-image: url(images/pwroff.jpg);
+    background-size: 100% 100%;
+}
+
+.dashtitle
+{
+    margin: 0px 500px 0px 500px;
+    text-align: center;
+    width: 450px;
+    height: 80px;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    
+}

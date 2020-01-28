@@ -1,0 +1,252 @@
+/* Styling body background*/
+body{
+    
+   background: url(images/loginbck.jpg) center center no-repeat;
+/*    background-size: 100% 100%;*/
+/*    background-image:  */
+    height: 100%; 
+    width: 100%;
+    
+}
+
+.container{
+    width: 700px;
+    height: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: gainsboro;
+    opacity: 0.7;
+    border: 2px bold grey;
+    border-radius: 30px;
+}
+/* Style brand logo*/
+
+.logo{
+    width: 100%;
+/*    height: px;*/
+    text-align: center;
+    border-bottom
+    
+}
+
+
+.svv{
+    height: 90px;
+    float: right;
+    margin-top: 10px;
+}
+
+.logo img{
+    height: 90px;
+    border-color: black;
+    border: 5px 5px 5px 5px;
+    
+}
+
+#quote{
+    font-family: serif bold;
+    font-size: 17px;
+    margin-top: -12px;
+    
+}
+
+
+
+/*  Style left section */
+.leftsection{
+    height: 382px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    border-bottom: 10px;
+    padding: 15px;
+    border-right: 1px solid black;
+    
+}
+
+.logopic{
+    height: 150px;
+    margin-top: 10px
+}
+
+.logotext{
+    height: 70px;
+}
+
+.explorebtn button{
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(46, 49, 49, 1);
+    font-family: serif bold;
+    border-color: black;
+    border-bottom-width: 2px;
+    border-radius: 8px;
+    color: lightgray;
+}
+.explorebtn button:hover{
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    background-color:  black;
+    border-color: black;
+    border-bottom-width: 2px;
+    border-radius: 8px;
+    color: white;
+}
+
+.googlebtn button{
+    font-size: 30px;
+    padding: 5px;
+/*    margin: px;*/
+    width: 200px;
+    background-color: rgba(207, 0, 15, 1);
+    font-family: serif bold;
+    border-color: black;
+    border-bottom-width: 2px;
+    border-radius: 8px;
+    color: white;
+} 
+.googlebtn button:hover{
+    background-color: red;
+}
+
+.fbbtn button{
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 200px;
+    background-color: rgba(77, 19, 209, 1);
+    font-family: serif bold;
+    border-color: black;
+    border-bottom-width: 2px;
+    border-radius: 8px;
+    color: white; 
+} 
+
+.fbbtn button:hover{
+    opacity: 1;
+    background-color: blue
+}
+
+.leftsection p{
+    font-size: 20px;
+    font-family: serif bold;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: black;
+  
+}
+
+#policy{
+    font-size: 15px;
+    font-family: inherit bold;
+    color: black;
+    margin-top: 2px
+}
+
+/* Style right section  */
+.rightsection{
+    height: 385px;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.rightsection h2{
+    font-size: 30px;
+    font-family: serif;
+    color: black;
+}
+
+.rightsection input{
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: lightgray
+}
+
+.rightsection p{
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.login{
+    font-size: 19px;
+    font-family: inherit bold;
+    margin-left: 200px;
+    margin-top: -35px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    
+}
+
+.selectcountry{  
+/*    height: 100px;*/
+    text-align: center;
+    
+    
+}
+
+/* contact about button */
+ 
+.countryname{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    font-family: cursive;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 135px;
+    height: 35px;
+    padding: 5px;
+}
+
+
+/* style footer  */
+.copyright{
+    height: 30px;
+    width: 700px;
+/*    margin: 59px 0px 3px -15px;*/
+    margin-left: -15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 19px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: ;
+    background-color: black;
+    color: white;
+    float: left;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.copyright a{
+    font-size: 15px;
+    border-right: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px ;
+    float: left;
+    color: white;
+}
+
+.copyright p{
+    float: right;
+/*    height: ;*/
+    font-size: 17px;
+    padding: 4px;    
+}
+
+
+/* media /change icon size in smal devives
